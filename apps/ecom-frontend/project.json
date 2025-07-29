@@ -8,11 +8,15 @@
   "targets": {
     "build": {
       "executor": "@angular/build:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/ecom-frontend",
         "browser": "apps/ecom-frontend/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/ecom-frontend/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
@@ -21,7 +25,9 @@
             "input": "apps/ecom-frontend/public"
           }
         ],
-        "styles": ["apps/ecom-frontend/src/styles.scss"],
+        "styles": [
+          "apps/ecom-frontend/src/styles.scss"
+        ],
         "server": "apps/ecom-frontend/src/main.server.ts",
         "ssr": {
           "entry": "apps/ecom-frontend/src/server.ts"

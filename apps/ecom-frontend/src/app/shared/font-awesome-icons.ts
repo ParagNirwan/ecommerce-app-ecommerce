@@ -1,6 +1,6 @@
 import { IconDefinition } from '@fortawesome/angular-fontawesome'
 import { faCartShopping, faUser, faTruckFast } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export const fontAwesomeIcons: IconDefinition[] = [
 
@@ -10,5 +10,6 @@ export const fontAwesomeIcons: IconDefinition[] = [
     faFacebook,
     faLinkedin,
     faInstagram,
-    faTwitter
+    faTwitter,
+    faGithub
 ]
